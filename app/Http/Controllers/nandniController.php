@@ -36,8 +36,8 @@ class nandniController extends Controller
 
         }
         $user->save();
-      // return redirect("showall");
-        echo "scucd";
+     return redirect("showall");
+        //echo "scucd";
     }
 
 
