@@ -29,14 +29,24 @@ class nandniController extends Controller
         $user->advance= Input::get('advance');
         $user->due= Input::get('due');
 
-         $user->save();
 
-         echo "scucd";
+        
+        if(Input::hasFile("image")){
+            $file=Input::file('image');
+            $name=time()."_".$file->getClientOriginalName();
+            $image=$file->move(public_path().'/',$name);
+            $user->image=$name;
+
+        }
+      
+
+
+           $user->save();
+     return redirect("showall");
+        //echo "scucd";
 
     }
-        // $user->save();
-      // return redirect("showall");
-       /// echo "scucd";
+       
 
 
     public function showall()
