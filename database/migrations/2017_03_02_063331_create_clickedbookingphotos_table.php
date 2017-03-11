@@ -16,7 +16,7 @@ class CreateClickedbookingphotosTable extends Migration
          Schema::create('Clickedbookingphotos', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('image');
+            // $table->string('image');
             $table->integer('phone_num');
             $table->date('booking_date');
             $table->date('function_date');

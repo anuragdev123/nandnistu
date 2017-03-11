@@ -8,11 +8,12 @@ use Illuminate\Support\Facades\Input;
 
 class nandniController extends Controller
 {
+
+
     public function index()
     {
         return view('insert');
     }
-
     
 
     public function store(Request $request)
@@ -27,6 +28,8 @@ class nandniController extends Controller
         $user->total_rate= Input::get('total_rate');
         $user->advance= Input::get('advance');
         $user->due= Input::get('due');
+
+
         
         if(Input::hasFile("image")){
             $file=Input::file('image');
@@ -35,10 +38,15 @@ class nandniController extends Controller
             $user->image=$name;
 
         }
-        $user->save();
+      
+
+
+           $user->save();
      return redirect("showall");
         //echo "scucd";
+
     }
+       
 
 
     public function showall()
@@ -46,5 +54,6 @@ class nandniController extends Controller
         $user=clickedbookingphoto::all();
         return view("viewall",compact('user'));
     }
+
 
 }

@@ -31,7 +31,6 @@
  		<th>Total Rate</th>
  		<th>Advance</th>
  		<th>Due</th>
- 		<th>Image</th>
  	</tr>
  	<tbody>
  	@foreach($user as $users)

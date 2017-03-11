@@ -11,6 +11,10 @@
             <input type="text" name="name" id="name" value="" size="22" placeholder="name" />
             <label for="name"><small>Name </small></label><br><br>
 
+{{-- <<<<<<< HEAD
+            <input type="file" name="image"><br><br>
+
+======= --}}
             <input type="file" accept="image/jpeg, image/png" name="image" multiple><br><br>
 
             <table class="images">
@@ -25,6 +29,7 @@
                         
                   </tbody>
             </table>
+{{-- >>>>>>> 4c92abac2d8478b19bc3d597a39da8bb85cf9e21 --}}
 		<input type="text" name="phone_num" id="phone" value="" size="22" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="mobile no"/>
 		<label for="phone"><small>phone Number</small></label><br><br>
 		     

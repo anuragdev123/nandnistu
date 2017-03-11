@@ -14,6 +14,11 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+
 Route::get('/','nandniController@index');
 Route::post('store','nandniController@store');
-Route::get('showall','nandniController@showall');
+//Route::get('showall','nandniController@showall');
+Route::get('normalinsert','normalController@indexNormal');
+Route::post('storeNormal','normalController@storeNormal');
+
