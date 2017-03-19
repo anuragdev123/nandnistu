@@ -12,7 +12,7 @@ class nandniController extends Controller
 
     public function index()
     {
-        return view('insert');
+        return view('index');
     }
     
 

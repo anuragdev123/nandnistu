@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-<link rel="stylesheet" href="file:///C:/Users/Omkar/Desktop/nandan/css/w3.css">
+<link rel="stylesheet" href="css/w3.css">
 
     <title>Nandani Studio</title>
 
@@ -25,7 +25,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="/resource/views/css/creative.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,7 +52,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="insert.blade.php">clicked Img</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">OUR WORK</a>
@@ -76,9 +76,9 @@
 <div class="w3-center w3-padding-8  w3-dark-gray">
    <h4 id="homeHeading" id="about" class="w3-center w3-round-jumbo w3-card-4 w3-padding-16 w3-red w3-btn "> Our Work</h4>
 <div class="w3-content w3-section w3-card-8 w3-round-xlarge" style="max-width:1200px">
-  <img class="mySlides" src="file:///C:/Users/Omkar/Desktop/nandan/img/slider/om4.png" style="width:100% ">
-  <img class="mySlides" src="file:///C:/Users/Omkar/Desktop/nandan/img/slider/om2.png" style="width:100%">
-  <img class="mySlides" src="file:///C:/Users/Omkar/Desktop/nandan/img/slider/om3.png" style="width:100%">
+  <img class="mySlides" src="img/slider/om4.png" style="width:100% ">
+  <img class="mySlides" src="img/slider/om2.png" style="width:100%">
+  <img class="mySlides" src="img/slider/om3.png" style="width:100%">
 </div>
 
 <script>
